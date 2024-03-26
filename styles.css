@@ -1,5 +1,6 @@
 .comingsoon{
     color: green;
     font-size: 80px;
-    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }

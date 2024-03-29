@@ -1,8 +1,121 @@
-.comingsoon{
-    color: green;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.center {align-self: center;
 
+html{
+  scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+--silver: #BEAEAEff;
+--dark-green: #11290Aff;
+--reseda-green: #878366ff;
+--timberwolf: #DBCFCDff;
+--reseda-green-2: #757141ff;
+--timberwolf-2: #E7DDDBff;
+--dark-green-2: #091D0Bff;
+--dark-moss-green: #3B4F12ff;
+--timberwolf-3: #E2D8D6ff;
+--pakistan-green: #233810ff;
+background-color: whitesmoke;
+  }
+
+.header-container {
+  position: fixed; /* Fix to the viewport */
+  top: 0; /* Position at top */
+  right: 0; /* Position at right side */
+  display: flex; /* Enable flexbox layout */
+  justify-content: space-around;
+  width: 50vw; /* Adjust width as needed */
+  color: white;
+  padding: 2rem;
+  font: size 1.5rem;
+}
+
+.navbar-link:hover{
+  background-color: var(--dark-green-2);
+  border-radius: 1rem;
+}
+
+.navbar-link{
+  padding: .5rem;
+  justify-content: space-between;
+}
+
+
+.landing-image-container {
+    height: 100vh;
+    background-image: url("justin-schwartfigure-1sCEtd3Zna4-unsplash-crop.jpg");
+    background-size: cover; /* Scales the image to cover the container */
+    background-position: center; /* Positions the image in the center */
+    color: white; /* Adjusts text color for readability on the image */
+    padding: 2rem; /* Adds padding for spacing around the text */
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.landing-image-container::before {
+  content: "";
+  size: cover;
+  position: center;
+  background-image: inherit; /* Inherit background image from parent */
+  filter: contrast(.5); /* Apply your filter here */
+}
+  @media (max-width: 479px) {
+    .landing-image-container {
+      background-image: url("andrew-spencer-Xzkxy9e0BV4-unsplash.jpg");}
+}
+
+
+h1 {
+  opacity: 0; /* Initial opacity for the element */
+  animation: fadeInUp 1s ease-in-out forwards; /* Animation name, duration, easing, and direction */
+  top: 50%; /* Center H1 vertically within the container */
+  left: 50%; /* Center H1 horizontally within the container */
+  transform: translate(-50%, -50%); /* Adjust positioning for margins if needed */
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); } /* Starts hidden and slightly up */
+  to { opacity: 1; transform: translateY(0); } /* Animates to full opacity and original position */
+}
+.fading-element{
+  scale: .8; opacity: 0;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: contain;
+  
+}
+@keyframes fade-in {
+  to {scale: 1; opacity: 1;}
+}
+
+.about{
+height: 90vh;
+background-color: var(--dark-green-2);
+display: flex;
+color: white;
+}
+.services{
+  height: 90vh;
+  background-color: white;
+  color: var(--dark-green-2)
+  display: flex;
+}
+.pricing{
+  height: 90vh;
+  background-color: var(--dark-green-2);
+  color: white;
+  display: flex;
+}
+.contact{
+  height: 90vh;
+  background-color: white;
+  color: var(--dark-green-2);
+  display: flex;
+}
+
+.footer{
+  height: 50vh;
+  background-color: var(--dark-green-2);
+  display: flex;
+  color:white;
 }

@@ -97,7 +97,7 @@ color: white;
 .services{
   height: 90vh;
   background-color: white;
-  color: var(--dark-green-2)
+  color: var(--dark-green-2);
   display: flex;
 }
 .pricing{

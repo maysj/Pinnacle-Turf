@@ -55,7 +55,7 @@ p {
 
 .landing-image-container {
     height: 100vh;
-    background-image: url(https://pinnacleturf.co/images/justin-schwartfigure-1sCEtd3Zna4-unsplash-crop.jpg);
+    background-image: url(https://pinnacleturf.co/justin-schwartfigure-1sCEtd3Zna4-unsplash-crop.jpg);
     background-size: cover; /* Scales the image to cover the container */
     background-position: center; /* Positions the image in the center */
     color: white; /* Adjusts text color for readability on the image */

@@ -65,18 +65,18 @@ p {
     align-items: center;
     justify-content: center;
 }
-.landing-image-container::before {
+/* .landing-image-container::before {
   content: "";
   size: cover;
   position: center;
-  background-image: inherit; /* Inherit background image from parent */
-  filter: contrast(.5); /* Apply your filter here */
+  background-image: inherit;
+  filter: contrast(.5);
 }
   @media (max-width: 479px) {
     .landing-image-container {
       background-image: url(andrew-spencer-Xzkxy9e0BV4-unsplash.jpg);}
 }
-
+ */
 
 h1 {
   opacity: 0; /* Initial opacity for the element */

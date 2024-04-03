@@ -55,7 +55,7 @@ p {
 
 .landing-image-container {
     height: 100vh;
-    background-image: url(Pinnacle-Turf/images/justin-schwartfigure-1sCEtd3Zna4-unsplash-crop.jpg);
+    background-image: url(justin-schwartfigure-1sCEtd3Zna4-unsplash-crop.jpg);
     background-size: cover; /* Scales the image to cover the container */
     background-position: center; /* Positions the image in the center */
     color: white; /* Adjusts text color for readability on the image */
@@ -74,7 +74,7 @@ p {
 }
   @media (max-width: 479px) {
     .landing-image-container {
-      background-image: url(images/andrew-spencer-Xzkxy9e0BV4-unsplash.jpg);}
+      background-image: url(andrew-spencer-Xzkxy9e0BV4-unsplash.jpg);}
 }
 
 

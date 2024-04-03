@@ -3,6 +3,7 @@ html{
   scroll-behavior: smooth;
 }
 body {
+  font-size: 16px;
     margin: 0;
     font-family: Roboto, sans-serif;
 --silver: #BEAEAEff;
@@ -17,29 +18,40 @@ body {
 --pakistan-green: #233810ff;
 background-color: whitesmoke;
   }
-
-.header-container {
-  position: fixed; /* Fix to the viewport */
-  top: 0; /* Position at top */
-  right: 0; /* Position at right side */
-  display: flex; /* Enable flexbox layout */
-  justify-content: space-around;
-  width: 50vw; /* Adjust width as needed */
+a {
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
   color: white;
+}
+p {
+  text-align: center;
+}
+.navbar-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+  background-color: dark var(--dark-green-2) ;
   padding: 2rem;
-  font: size 1.5rem;
+  font: 1.5rem;
+}
+
+
+
+.navbar-link{
+  padding: .5rem;
+  color: white;
+  justify-content: space-between;
+  background-color: var(--dark-green-2);
+  border-radius: 1rem;
 }
 
 .navbar-link:hover{
   background-color: var(--dark-green-2);
   border-radius: 1rem;
 }
-
-.navbar-link{
-  padding: .5rem;
-  justify-content: space-between;
-}
-
 
 .landing-image-container {
     height: 100vh;
@@ -89,10 +101,19 @@ h1 {
 }
 
 .about{
-height: 90vh;
 background-color: var(--dark-green-2);
 display: flex;
+flex-direction: column;
+justify-content: space-between;
 color: white;
+align-items: center;
+}
+.about-article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  font-size: large;
 }
 .services{
   height: 90vh;
